@@ -1,0 +1,17 @@
+﻿Game.obj : error LNK2019: _SDL_GetError 외부 기호(참조 위치: "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_CreateWindow 외부 기호(참조 위치: "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_DestroyWindow 외부 기호(참조 위치: "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_GetKeyboardState 외부 기호(참조 위치: "private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_PollEvent 외부 기호(참조 위치: "private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_Log 외부 기호(참조 위치: "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_CreateRenderer 외부 기호(참조 위치: "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_SetRenderDrawColor 외부 기호(참조 위치: "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_RenderClear 외부 기호(참조 위치: "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_RenderFillRect 외부 기호(참조 위치: "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_RenderPresent 외부 기호(참조 위치: "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_DestroyRenderer 외부 기호(참조 위치: "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_GetTicks 외부 기호(참조 위치: "private: void __thiscall Game::UpdateGame(void)" (?UpdateGame@Game@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_Init 외부 기호(참조 위치: "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수)에서 확인하지 못했습니다.
+Game.obj : error LNK2019: _SDL_Quit 외부 기호(참조 위치: "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\mandori97\source\repos\Pong\Debug\Pong.exe : fatal error LNK1120: 16개의 확인할 수 없는 외부 참조입니다.
